@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,QAAQ;EACvB,AAAA,gBAAgB,CAAA;IACZ,SAAS,EAAE,IAAI;IACf,gBAAgB,EAAE,kBAAkB;IACpC,MAAM,EAAE,KAAK;GAChB",
+    "sources": [
+        "Loginscreen.scss"
+    ],
+    "names": [],
+    "file": "Loginscreen.css"
+}

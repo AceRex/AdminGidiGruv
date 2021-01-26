@@ -1,0 +1,8 @@
+@media (max-width: 575.98px) {
+  .Login-container {
+    max-width: 100%;
+    background-color: var(--ColorPurple);
+    height: 100vh;
+  }
+}
+/*# sourceMappingURL=Loginscreen.css.map */

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+:root {
+    --ColorPurple: #48108d;
+    --ColorPink: #ff1493;
+    --ColorWhite: #fff;
+    --ColorBlack: #161616;
+    --ColorLight: #d8d6d6;
+}
