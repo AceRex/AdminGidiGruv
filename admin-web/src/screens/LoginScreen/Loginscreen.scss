@@ -1,15 +1,274 @@
-@media (max-width: 575.98px) { 
-    .Login-container{
+@media (max-width: 575.98px) {
+    .Login-container {
         max-width: 100%;
         background-color: var(--ColorPurple);
         height: 100vh;
+        padding: 50px;
+
+        .Logo-container {
+            width: 25%;
+            margin: auto;
+
+            img {
+                width: 70px;
+            }
+        }
+
+        .login-form {
+            max-width: 80%;
+            margin: auto;
+            padding: 50px 0px;
+
+            form {
+
+                input {
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border: solid 2px var(--ColorLight);
+                    color: var(--ColorPink);
+                    background-color: var(--ColorPurple);
+                    outline: none;
+                    margin: 15px auto;
+
+                    ::placeholder {
+                        color: var(--ColorWhite);
+                    }
+                }
+
+                button {
+                    width: 100%;
+                    padding: 12px;
+                    margin: 17px 0px;
+                    background-color: var(--ColorPink);
+                    border: none;
+                    border-radius: 5px;
+                    color: var(--ColorWhite);
+
+                }
+            }
+
+        }
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .Login-container {
+        max-width: 100%;
+        background-color: var(--ColorPurple);
+        height: 100vh;
+        padding: 50px;
+
+        .Logo-container {
+            width: 25%;
+            margin: auto;
+
+            img {
+                width: 70px;
+            }
+        }
+
+        .login-form {
+            max-width: 80%;
+            margin: auto;
+            padding: 50px 0px;
+
+            form {
+
+                input {
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border: solid 2px var(--ColorLight);
+                    color: var(--ColorPink);
+                    background-color: var(--ColorPurple);
+                    outline: none;
+                    margin: 15px auto;
+
+                    ::placeholder {
+                        color: var(--ColorWhite);
+                    }
+                }
+
+                button {
+                    width: 100%;
+                    padding: 12px;
+                    margin: 17px 0px;
+                    background-color: var(--ColorPink);
+                    border: none;
+                    border-radius: 5px;
+                    color: var(--ColorWhite);
+
+                }
+            }
+
+        }
+
     }
  }
 
-// @media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .Login-container {
+        max-width: 100%;
+        background-color: var(--ColorPurple);
+        height: 100vh;
+        padding: 50px;
 
-// @media (min-width: 768px) and (max-width: 991.98px) { ... }
+        .Logo-container {
+            width: 13%;
+            margin: auto;
 
-// @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+            img {
+                width: 70px;
+            }
+        }
 
-// @media (min-width: 1200px) { ... }
+        .login-form {
+            max-width: 50%;
+            margin: auto;
+            padding: 50px 0px;
+
+            form {
+
+                input {
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border: solid 2px var(--ColorLight);
+                    color: var(--ColorPink);
+                    background-color: var(--ColorPurple);
+                    outline: none;
+                    margin: 15px auto;
+
+                    ::placeholder {
+                        color: var(--ColorWhite);
+                    }
+                }
+
+                button {
+                    width: 100%;
+                    padding: 12px;
+                    margin: 17px 0px;
+                    background-color: var(--ColorPink);
+                    border: none;
+                    border-radius: 5px;
+                    color: var(--ColorWhite);
+
+                }
+            }
+
+        }
+
+    }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .Login-container {
+        max-width: 100%;
+        background-color: var(--ColorPurple);
+        height: 100vh;
+        padding: 50px;
+
+        .Logo-container {
+            width: 9%;
+            margin: auto;
+
+            img {
+                width: 70px;
+            }
+        }
+
+        .login-form {
+            max-width: 40%;
+            margin: auto;
+            padding: 50px 0px;
+
+            form {
+
+                input {
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border: solid 2px var(--ColorLight);
+                    color: var(--ColorPink);
+                    background-color: var(--ColorPurple);
+                    outline: none;
+                    margin: 15px auto;
+
+                    ::placeholder {
+                        color: var(--ColorWhite);
+                    }
+                }
+
+                button {
+                    width: 100%;
+                    padding: 12px;
+                    margin: 17px 0px;
+                    background-color: var(--ColorPink);
+                    border: none;
+                    border-radius: 5px;
+                    color: var(--ColorWhite);
+
+                }
+            }
+
+        }
+
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .Login-container {
+        max-width: 100%;
+        background-color: var(--ColorPurple);
+        height: 100vh;
+        padding: 50px;
+
+        .Logo-container {
+            width: 9%;
+            margin: auto;
+
+            img {
+                width: 70px;
+            }
+        }
+
+        .login-form {
+            max-width: 40%;
+            margin: auto;
+            padding: 50px 0px;
+
+            form {
+
+                input {
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border: solid 2px var(--ColorLight);
+                    color: var(--ColorPink);
+                    background-color: var(--ColorPurple);
+                    outline: none;
+                    margin: 15px auto;
+
+                    ::placeholder {
+                        color: var(--ColorWhite);
+                    }
+                }
+
+                button {
+                    width: 100%;
+                    padding: 12px;
+                    margin: 17px 0px;
+                    background-color: var(--ColorPink);
+                    border: none;
+                    border-radius: 5px;
+                    color: var(--ColorWhite);
+
+                }
+            }
+
+        }
+
+    }
+ }

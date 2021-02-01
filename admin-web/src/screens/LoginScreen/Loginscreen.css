@@ -3,6 +3,258 @@
     max-width: 100%;
     background-color: var(--ColorPurple);
     height: 100vh;
+    padding: 50px;
+  }
+  .Login-container .Logo-container {
+    width: 25%;
+    margin: auto;
+  }
+  .Login-container .Logo-container img {
+    width: 70px;
+  }
+  .Login-container .login-form {
+    max-width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+  }
+  .Login-container .login-form form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px var(--ColorLight);
+    color: var(--ColorPink);
+    background-color: var(--ColorPurple);
+    outline: none;
+    margin: 15px auto;
+  }
+  .Login-container .login-form form input ::-webkit-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input :-ms-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input ::-ms-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input ::placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form button {
+    width: 100%;
+    padding: 12px;
+    margin: 17px 0px;
+    background-color: var(--ColorPink);
+    border: none;
+    border-radius: 5px;
+    color: var(--ColorWhite);
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .Login-container {
+    max-width: 100%;
+    background-color: var(--ColorPurple);
+    height: 100vh;
+    padding: 50px;
+  }
+  .Login-container .Logo-container {
+    width: 25%;
+    margin: auto;
+  }
+  .Login-container .Logo-container img {
+    width: 70px;
+  }
+  .Login-container .login-form {
+    max-width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+  }
+  .Login-container .login-form form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px var(--ColorLight);
+    color: var(--ColorPink);
+    background-color: var(--ColorPurple);
+    outline: none;
+    margin: 15px auto;
+  }
+  .Login-container .login-form form input ::-webkit-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input :-ms-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input ::-ms-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input ::placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form button {
+    width: 100%;
+    padding: 12px;
+    margin: 17px 0px;
+    background-color: var(--ColorPink);
+    border: none;
+    border-radius: 5px;
+    color: var(--ColorWhite);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .Login-container {
+    max-width: 100%;
+    background-color: var(--ColorPurple);
+    height: 100vh;
+    padding: 50px;
+  }
+  .Login-container .Logo-container {
+    width: 13%;
+    margin: auto;
+  }
+  .Login-container .Logo-container img {
+    width: 70px;
+  }
+  .Login-container .login-form {
+    max-width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+  }
+  .Login-container .login-form form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px var(--ColorLight);
+    color: var(--ColorPink);
+    background-color: var(--ColorPurple);
+    outline: none;
+    margin: 15px auto;
+  }
+  .Login-container .login-form form input ::-webkit-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input :-ms-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input ::-ms-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input ::placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form button {
+    width: 100%;
+    padding: 12px;
+    margin: 17px 0px;
+    background-color: var(--ColorPink);
+    border: none;
+    border-radius: 5px;
+    color: var(--ColorWhite);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .Login-container {
+    max-width: 100%;
+    background-color: var(--ColorPurple);
+    height: 100vh;
+    padding: 50px;
+  }
+  .Login-container .Logo-container {
+    width: 9%;
+    margin: auto;
+  }
+  .Login-container .Logo-container img {
+    width: 70px;
+  }
+  .Login-container .login-form {
+    max-width: 40%;
+    margin: auto;
+    padding: 50px 0px;
+  }
+  .Login-container .login-form form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px var(--ColorLight);
+    color: var(--ColorPink);
+    background-color: var(--ColorPurple);
+    outline: none;
+    margin: 15px auto;
+  }
+  .Login-container .login-form form input ::-webkit-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input :-ms-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input ::-ms-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input ::placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form button {
+    width: 100%;
+    padding: 12px;
+    margin: 17px 0px;
+    background-color: var(--ColorPink);
+    border: none;
+    border-radius: 5px;
+    color: var(--ColorWhite);
+  }
+}
+
+@media (min-width: 1200px) {
+  .Login-container {
+    max-width: 100%;
+    background-color: var(--ColorPurple);
+    height: 100vh;
+    padding: 50px;
+  }
+  .Login-container .Logo-container {
+    width: 9%;
+    margin: auto;
+  }
+  .Login-container .Logo-container img {
+    width: 70px;
+  }
+  .Login-container .login-form {
+    max-width: 40%;
+    margin: auto;
+    padding: 50px 0px;
+  }
+  .Login-container .login-form form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px var(--ColorLight);
+    color: var(--ColorPink);
+    background-color: var(--ColorPurple);
+    outline: none;
+    margin: 15px auto;
+  }
+  .Login-container .login-form form input ::-webkit-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input :-ms-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input ::-ms-input-placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form input ::placeholder {
+    color: var(--ColorWhite);
+  }
+  .Login-container .login-form form button {
+    width: 100%;
+    padding: 12px;
+    margin: 17px 0px;
+    background-color: var(--ColorPink);
+    border: none;
+    border-radius: 5px;
+    color: var(--ColorWhite);
   }
 }
 /*# sourceMappingURL=Loginscreen.css.map */
