@@ -282,4 +282,194 @@
     background-color: var(--ColorPurple);
   }
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .section {
+    overflow: hidden;
+  }
+  .dropzone {
+    width: 40%;
+    height: 45vh;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 11px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 10px #0000001e;
+            box-shadow: 2px 2px 10px #0000001e;
+    color: var(--ColorPink);
+    overflow: hidden;
+  }
+  .dropzone span {
+    font-size: 90px;
+  }
+  .dropzone p {
+    font-weight: 600;
+  }
+  .dropzone .thumbs-container {
+    position: relative;
+    width: 320px;
+    height: 300px;
+    margin-top: -10.5rem;
+    margin-left: -0.8rem;
+    border-radius: 10px;
+    outline: none;
+    overflow: hidden;
+  }
+  .dropzone .thumbs-container .thumb {
+    overflow: hidden;
+    outline: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .dropzone .thumbs-container .thumb .thumbInner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    outline: none;
+  }
+  .dropzone .thumbs-container .thumb .thumbInner .img {
+    display: block;
+    width: 310px;
+    height: 100%;
+    outline: none;
+  }
+  .inputs {
+    width: 70%;
+    margin: 20px auto;
+  }
+  .inputs input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+    background-color: #ebe9e9;
+    outline: none;
+  }
+  .inputs textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+    background-color: #ebe9e9;
+    resize: none;
+    outline: none;
+  }
+  .inputs button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: var(--ColorWhite);
+    outline: none;
+    background-color: var(--ColorPurple);
+  }
+}
+
+@media (min-width: 1200px) {
+  .section {
+    overflow: hidden;
+  }
+  .dropzone {
+    width: 27%;
+    height: 45vh;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 11px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 10px #0000001e;
+            box-shadow: 2px 2px 10px #0000001e;
+    color: var(--ColorPink);
+    overflow: hidden;
+  }
+  .dropzone span {
+    font-size: 90px;
+  }
+  .dropzone p {
+    font-weight: 600;
+  }
+  .dropzone .thumbs-container {
+    position: relative;
+    width: 320px;
+    height: 300px;
+    margin-top: -10.5rem;
+    margin-left: -0.8rem;
+    border-radius: 10px;
+    outline: none;
+    overflow: hidden;
+  }
+  .dropzone .thumbs-container .thumb {
+    overflow: hidden;
+    outline: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .dropzone .thumbs-container .thumb .thumbInner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    outline: none;
+  }
+  .dropzone .thumbs-container .thumb .thumbInner .img {
+    display: block;
+    width: 310px;
+    height: 100%;
+    outline: none;
+  }
+  .inputs {
+    width: 50%;
+    margin: 20px auto;
+  }
+  .inputs input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+    background-color: #ebe9e9;
+    outline: none;
+  }
+  .inputs textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+    background-color: #ebe9e9;
+    resize: none;
+    outline: none;
+  }
+  .inputs button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: var(--ColorWhite);
+    outline: none;
+    background-color: var(--ColorPurple);
+  }
+}
 /*# sourceMappingURL=style.css.map */
