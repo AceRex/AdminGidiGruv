@@ -3,7 +3,147 @@
     overflow: hidden;
   }
   .dropzone {
-    width: 77%;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 11px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 10px #0000001e;
+            box-shadow: 2px 2px 10px #0000001e;
+    color: var(--ColorPink);
+    overflow: hidden;
+  }
+  .dropzone span {
+    font-size: 60px;
+  }
+  .dropzone p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .dropzone .thumbs-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: -7rem;
+    border-radius: 10px;
+    outline: none;
+    overflow: hidden;
+  }
+  .dropzone .thumbs-container .thumb {
+    overflow: hidden;
+    outline: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .dropzone .thumbs-container .thumb .thumbInner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    outline: none;
+  }
+  .dropzone .thumbs-container .thumb .thumbInner .img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: none;
+  }
+  .inputs {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .inputs input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+    background-color: #ebe9e9;
+    outline: none;
+  }
+  .inputs textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+    background-color: #ebe9e9;
+    resize: none;
+    outline: none;
+  }
+  .inputs .post-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: var(--ColorWhite);
+    outline: none;
+    cursor: pointer;
+    background-color: var(--ColorPurple);
+  }
+  .inputs .date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inputs .date input {
+    width: 32%;
+  }
+  .inputs .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inputs .time input {
+    width: 30%;
+  }
+  .inputs .time select {
+    padding: 10px;
+    width: 30%;
+    background-color: #ebe9e9;
+    border: none;
+    outline: none;
+  }
+  .inputs .time span {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .section {
+    overflow: hidden;
+  }
+  .dropzone {
+    width: 80%;
     height: 45vh;
     margin: auto;
     background-color: #ffffff;
@@ -82,109 +222,58 @@
     resize: none;
     outline: none;
   }
-  .inputs button {
+  .inputs .post-btn {
     width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
     color: var(--ColorWhite);
     outline: none;
+    cursor: pointer;
     background-color: var(--ColorPurple);
   }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .section {
-    overflow: hidden;
-  }
-  .dropzone {
-    width: 80%;
-    height: 45vh;
-    margin: auto;
-    background-color: #ffffff;
-    border-radius: 10px;
-    font-size: 11px;
-    text-align: center;
-    -webkit-box-shadow: 2px 2px 10px #0000001e;
-            box-shadow: 2px 2px 10px #0000001e;
-    color: var(--ColorPink);
-    overflow: hidden;
-  }
-  .dropzone span {
-    font-size: 90px;
-  }
-  .dropzone p {
-    font-weight: 600;
-  }
-  .dropzone .thumbs-container {
-    position: relative;
-    width: 320px;
-    height: 300px;
-    margin-top: -10.5rem;
-    margin-left: -0.8rem;
-    border-radius: 10px;
-    outline: none;
-    overflow: hidden;
-  }
-  .dropzone .thumbs-container .thumb {
-    overflow: hidden;
-    outline: none;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    border-radius: 2px;
-    border: 1px solid #eaeaea;
-    margin-bottom: 8px;
-    margin-right: 8px;
-    width: 100%;
-    height: 100%;
-    padding: 4px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .dropzone .thumbs-container .thumb .thumbInner {
+  .inputs .date {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    outline: none;
-  }
-  .dropzone .thumbs-container .thumb .thumbInner .img {
-    display: block;
-    width: 310px;
-    height: 100%;
-    outline: none;
-  }
-  .inputs {
-    width: 70%;
-    margin: 20px auto;
-  }
-  .inputs input {
     width: 100%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inputs .date input {
+    width: 32%;
+  }
+  .inputs .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inputs .time input {
+    width: 30%;
+  }
+  .inputs .time select {
     padding: 10px;
-    border-radius: 5px;
-    border: none;
-    margin: 10px 0px;
+    width: 30%;
     background-color: #ebe9e9;
+    border: none;
     outline: none;
   }
-  .inputs textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    margin: 10px 0px;
-    background-color: #ebe9e9;
-    resize: none;
-    outline: none;
-  }
-  .inputs button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    color: var(--ColorWhite);
-    outline: none;
-    background-color: var(--ColorPurple);
+  .inputs .time span {
+    font-size: 20px;
+    font-weight: 600;
   }
 }
 
@@ -250,7 +339,7 @@
     outline: none;
   }
   .inputs {
-    width: 70%;
+    width: 90%;
     margin: 20px auto;
   }
   .inputs input {
@@ -272,24 +361,69 @@
     resize: none;
     outline: none;
   }
-  .inputs button {
+  .inputs .post-btn {
     width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
     color: var(--ColorWhite);
     outline: none;
+    cursor: pointer;
     background-color: var(--ColorPurple);
+  }
+  .inputs .date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inputs .date input {
+    width: 32%;
+  }
+  .inputs .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inputs .time input {
+    width: 30%;
+  }
+  .inputs .time select {
+    padding: 10px;
+    width: 30%;
+    background-color: #ebe9e9;
+    border: none;
+    outline: none;
+  }
+  .inputs .time span {
+    font-size: 20px;
+    font-weight: 600;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .section {
-    overflow: hidden;
+  section {
+    width: 80%;
+    margin: 5rem auto;
   }
-  .dropzone {
-    width: 40%;
-    height: 45vh;
+  section .dropzone {
+    width: 60%;
+    height: 50vh;
     margin: auto;
     background-color: #ffffff;
     border-radius: 10px;
@@ -300,23 +434,23 @@
     color: var(--ColorPink);
     overflow: hidden;
   }
-  .dropzone span {
+  section .dropzone span {
     font-size: 90px;
   }
-  .dropzone p {
+  section .dropzone p {
     font-weight: 600;
   }
-  .dropzone .thumbs-container {
+  section .dropzone .thumbs-container {
     position: relative;
-    width: 320px;
-    height: 300px;
+    width: 400px;
+    height: 450px;
     margin-top: -10.5rem;
     margin-left: -0.8rem;
     border-radius: 10px;
     outline: none;
     overflow: hidden;
   }
-  .dropzone .thumbs-container .thumb {
+  section .dropzone .thumbs-container .thumb {
     overflow: hidden;
     outline: none;
     display: -webkit-inline-box;
@@ -332,23 +466,24 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  .dropzone .thumbs-container .thumb .thumbInner {
+  section .dropzone .thumbs-container .thumb .thumbInner {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     outline: none;
+    overflow: hidden;
   }
-  .dropzone .thumbs-container .thumb .thumbInner .img {
+  section .dropzone .thumbs-container .thumb .thumbInner .img {
     display: block;
-    width: 310px;
+    width: 100%;
     height: 100%;
     outline: none;
   }
-  .inputs {
-    width: 70%;
+  section .inputs {
+    width: 90%;
     margin: 20px auto;
   }
-  .inputs input {
+  section .inputs input {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -357,7 +492,7 @@
     background-color: #ebe9e9;
     outline: none;
   }
-  .inputs textarea {
+  section .inputs textarea {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -367,24 +502,70 @@
     resize: none;
     outline: none;
   }
-  .inputs button {
+  section .inputs .post-btn {
     width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
     color: var(--ColorWhite);
     outline: none;
+    cursor: pointer;
     background-color: var(--ColorPurple);
+  }
+  section .inputs .date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section .inputs .date input {
+    width: 32%;
+  }
+  section .inputs .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section .inputs .time input {
+    width: 30%;
+  }
+  section .inputs .time select {
+    padding: 10px;
+    width: 30%;
+    background-color: #ebe9e9;
+    border: none;
+    outline: none;
+  }
+  section .inputs .time span {
+    font-size: 20px;
+    font-weight: 600;
   }
 }
 
 @media (min-width: 1200px) {
-  .section {
-    overflow: hidden;
+  section {
+    width: 80%;
+    margin: 5rem auto;
+    margin-left: 8rem;
   }
-  .dropzone {
-    width: 27%;
-    height: 45vh;
+  section .dropzone {
+    width: 50%;
+    height: 47vh;
     margin: auto;
     background-color: #ffffff;
     border-radius: 10px;
@@ -395,23 +576,23 @@
     color: var(--ColorPink);
     overflow: hidden;
   }
-  .dropzone span {
+  section .dropzone span {
     font-size: 90px;
   }
-  .dropzone p {
+  section .dropzone p {
     font-weight: 600;
   }
-  .dropzone .thumbs-container {
+  section .dropzone .thumbs-container {
     position: relative;
-    width: 320px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     margin-top: -10.5rem;
     margin-left: -0.8rem;
     border-radius: 10px;
     outline: none;
     overflow: hidden;
   }
-  .dropzone .thumbs-container .thumb {
+  section .dropzone .thumbs-container .thumb {
     overflow: hidden;
     outline: none;
     display: -webkit-inline-box;
@@ -427,23 +608,23 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  .dropzone .thumbs-container .thumb .thumbInner {
+  section .dropzone .thumbs-container .thumb .thumbInner {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     outline: none;
   }
-  .dropzone .thumbs-container .thumb .thumbInner .img {
+  section .dropzone .thumbs-container .thumb .thumbInner .img {
     display: block;
-    width: 310px;
+    width: 400px;
     height: 100%;
     outline: none;
   }
-  .inputs {
-    width: 50%;
+  section .inputs {
+    width: 60%;
     margin: 20px auto;
   }
-  .inputs input {
+  section .inputs input {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -452,7 +633,7 @@
     background-color: #ebe9e9;
     outline: none;
   }
-  .inputs textarea {
+  section .inputs textarea {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -462,14 +643,58 @@
     resize: none;
     outline: none;
   }
-  .inputs button {
+  section .inputs .post-btn {
     width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
     color: var(--ColorWhite);
     outline: none;
+    cursor: pointer;
     background-color: var(--ColorPurple);
+  }
+  section .inputs .date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section .inputs .date input {
+    width: 32%;
+  }
+  section .inputs .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section .inputs .time input {
+    width: 30%;
+  }
+  section .inputs .time select {
+    padding: 10px;
+    width: 30%;
+    background-color: #ebe9e9;
+    border: none;
+    outline: none;
+  }
+  section .inputs .time span {
+    font-size: 20px;
+    font-weight: 600;
   }
 }
 /*# sourceMappingURL=style.css.map */

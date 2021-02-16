@@ -1,0 +1,279 @@
+@media (max-width: 575.98px) {
+    .broadcast-page {
+        .sort {
+            width: 80%;
+            margin: auto;
+
+            select {
+                background-color: #ebe9e9;
+                border: none;
+                padding: 20px;
+                width: 100%;
+                margin: auto;
+                outline: none;
+            }
+        }
+
+        .broadcast-form {
+            width: 80%;
+            margin: 10px auto;
+
+            input {
+                width: 100%;
+                margin: 10px 0;
+                padding: 20px;
+                background-color: #ebe9e9;
+                border: none;
+            }
+
+            textarea {
+                resize: none;
+                width: 100%;
+                margin: 10px 0;
+                background-color: #ebe9e9;
+                border: none;
+                padding: 20px;
+            }
+
+            button {
+                width: 100%;
+                background-color: var(--ColorPurple);
+                border: none;
+                color: var(--ColorWhite);
+                padding: 10px;
+            }
+        }
+    }
+    .select-radio{
+        width: 80%;
+        margin: 2rem auto;
+        input{
+            margin-left: 2rem;
+        }
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .broadcast-page {
+        .sort {
+            width: 80%;
+            margin: auto;
+
+            select {
+                background-color: #ebe9e9;
+                border: none;
+                padding: 20px;
+                width: 100%;
+                margin: auto;
+                outline: none;
+            }
+        }
+
+        .broadcast-form {
+            width: 80%;
+            margin: 10px auto;
+
+            input {
+                width: 100%;
+                margin: 10px 0;
+                padding: 20px;
+                background-color: #ebe9e9;
+                border: none;
+            }
+
+            textarea {
+                resize: none;
+                width: 100%;
+                margin: 10px 0;
+                background-color: #ebe9e9;
+                border: none;
+                padding: 20px;
+            }
+
+            button {
+                width: 100%;
+                background-color: var(--ColorPurple);
+                border: none;
+                color: var(--ColorWhite);
+                padding: 10px;
+            }
+        }
+    }  
+     .select-radio{
+        width: 80%;
+        margin: 2rem auto;
+        input{
+            margin-left: 2rem;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .broadcast-page {
+        .sort {
+            width: 80%;
+            margin: auto;
+
+            select {
+                background-color: #ebe9e9;
+                border: none;
+                padding: 20px;
+                width: 100%;
+                margin: auto;
+                outline: none;
+            }
+        }
+
+        .broadcast-form {
+            width: 80%;
+            margin: 10px auto;
+
+            input {
+                width: 100%;
+                margin: 10px 0;
+                padding: 20px;
+                background-color: #ebe9e9;
+                border: none;
+            }
+
+            textarea {
+                resize: none;
+                width: 100%;
+                margin: 10px 0;
+                background-color: #ebe9e9;
+                border: none;
+                padding: 20px;
+            }
+
+            button {
+                width: 100%;
+                background-color: var(--ColorPurple);
+                border: none;
+                color: var(--ColorWhite);
+                padding: 10px;
+            }
+        }
+    }
+    .select-radio{
+        width: 80%;
+        margin: 2rem auto;
+        input{
+            margin-left: 2rem;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .broadcast-page {
+        width: 70%;
+        margin: 7rem auto;
+        .sort {
+            width: 80%;
+            margin: auto;
+
+            select {
+                background-color: #ebe9e9;
+                border: none;
+                padding: 20px;
+                width: 100%;
+                margin: auto;
+                outline: none;
+            }
+        }
+
+        .broadcast-form {
+            width: 80%;
+            margin: 10px auto;
+
+            input {
+                width: 100%;
+                margin: 10px 0;
+                padding: 20px;
+                background-color: #ebe9e9;
+                border: none;
+            }
+
+            textarea {
+                resize: none;
+                width: 100%;
+                margin: 10px 0;
+                background-color: #ebe9e9;
+                border: none;
+                padding: 20px;
+            }
+
+            button {
+                width: 100%;
+                background-color: var(--ColorPurple);
+                border: none;
+                color: var(--ColorWhite);
+                padding: 10px;
+            }
+        }
+    }
+    .select-radio{
+        width: 70%;
+        margin: 2rem auto;
+        input{
+            margin-left: 2rem;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .broadcast-page {
+        width: 70%;
+        margin: 7rem auto;
+        .sort {
+            width: 80%;
+            margin: auto;
+
+            select {
+                background-color: #ebe9e9;
+                border: none;
+                padding: 20px;
+                width: 100%;
+                margin: auto;
+                outline: none;
+            }
+        }
+
+        .broadcast-form {
+            width: 80%;
+            margin: 10px auto;
+
+            input {
+                width: 100%;
+                margin: 10px 0;
+                padding: 20px;
+                background-color: #ebe9e9;
+                border: none;
+            }
+
+            textarea {
+                resize: none;
+                width: 100%;
+                margin: 10px 0;
+                background-color: #ebe9e9;
+                border: none;
+                padding: 20px;
+            }
+
+            button {
+                width: 100%;
+                background-color: var(--ColorPurple);
+                border: none;
+                color: var(--ColorWhite);
+                padding: 10px;
+            }
+        }
+    }
+    .select-radio{
+        width: 50%;
+        margin: 2rem auto;
+        input{
+            margin-left: 2rem;
+        }
+    }
+}

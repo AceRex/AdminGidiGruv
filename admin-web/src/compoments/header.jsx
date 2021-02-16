@@ -4,11 +4,12 @@ import { FaTimes, FaBars } from 'react-icons/fa'
 import Logo from './Logo/logo.png'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { BsFilePlus } from 'react-icons/bs'
+import { FaSignOutAlt } from 'react-icons/fa'
 import { RiFileListLine } from 'react-icons/ri'
-import { IoMdNotifications } from 'react-icons/io'
 import { AiFillNotification } from 'react-icons/ai'
 import PostEvn from '../screens/PostEvent/index'
 import ListOfEvents from '../screens/ListOfEvents/ListOfEve'
+import Broadcast from '../screens/BroadcastScreen/broadcast'
 
 export default class Header extends Component {
     constructor() {
@@ -44,21 +45,19 @@ export default class Header extends Component {
                     <TabList className={this.state.clicked ? "side-nav active" : "side-nav"}>
                         <Tab onClick={this.handleClicked}><span><BsFilePlus /></span>Post an Event</Tab>
                         <Tab onClick={this.handleClicked}><span><RiFileListLine /></span>List Of Events</Tab>
-                        <Tab onClick={this.handleClicked}><span><IoMdNotifications /></span>Notification</Tab>
                         <Tab onClick={this.handleClicked}><span><AiFillNotification /></span>Broadcast an Event</Tab>
+                        <Tab onClick={this.handleClicked}><span><FaSignOutAlt /></span>Logout</Tab>
+
                     </TabList>
 
                     <TabPanel>
                         <PostEvn />
                     </TabPanel>
                     <TabPanel>
-                        <ListOfEvents/>
+                        <ListOfEvents />
                     </TabPanel>
                     <TabPanel>
-                        
-                    </TabPanel>
-                    <TabPanel>
-                        
+                        <Broadcast />
                     </TabPanel>
                 </Tabs>
             </>
